@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简易聊天室</title>
+    <base href="http://localhost/">
+    <link rel="stylesheet" href="../static/css/spectre.min.css">
+    <link rel="stylesheet" href="../static/css/spectre-icons.css">
+    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/js.cookie.js"></script>
+    <script src="../static/js/moment.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="column col-8 col-mx-auto">
+                <header class="navbar">
+                    <section class="centered">
+                        <div class="navbar-brand mr-2">
+                            <h2>简易聊天室</h2>
+                        </div>
+                    </section>
+                </header>
+            </div>
+        </div>
+        <div class="columns col-10 col-mx-auto">
+            <div class="column col-12 col-xs-12" id="content">
+                <div class="panel" style="height:600px;">
+                    <div class="panel-header text-center">
+                    </div>
+
+                    <div class="panel-body" style="overflow:auto;">
+
+                    </div>
+                    <div class="panel-footer">
+                        <div class="input-group">
+                                <input class="form-input" type="text" placeholder="Hello">
+                            <button class="btn btn-primary input-group-btn" id="post">发送</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./static/js/room.js"></script>
+    </div>
+</body>
+
+</html>
